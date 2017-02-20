@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+/* line 1, ../components/sass/_layout.sass */
+#main {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2em;
+  min-height: 15em;
+}
+
+/* line 7, ../components/sass/_layout.sass */
+#map_svg {
+  margin: 0 auto;
+}
+
+/* line 10, ../components/sass/_layout.sass */
+.country {
+  fill: #efefef;
+  stroke: #ffffff;
+  stroke-width: 1.35;
+}
+
+/* line 15, ../components/sass/_layout.sass */
+.country--hover {
+  fill: #4d266c;
+  stroke-width: 0.35;
+  opacity: 0.5;
+  z-index: 999;
+}
+
+/* line 21, ../components/sass/_layout.sass */
+.country--selected {
+  fill: #4d266c;
+  stroke-width: 0.5;
+  opacity: 1;
+  z-index: 9999;
+}
